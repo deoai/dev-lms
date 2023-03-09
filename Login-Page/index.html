@@ -13,6 +13,7 @@
   </head>
 
   <body>
+    <div id="preloader"></div>
     <div class="login-card">
       <div class="column">
         <h1>Login</h1>
@@ -54,4 +55,10 @@
       </div>
     </div>
   </body>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+  </script>
 </html>

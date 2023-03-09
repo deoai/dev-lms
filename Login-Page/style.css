@@ -151,3 +151,17 @@ body {
   }
 
 }
+
+
+#preloader {
+  background-color: #fff;
+  background-image: url("preloader.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999999;
+}
